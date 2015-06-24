@@ -1,0 +1,27 @@
+{
+    "name": "freekmurze/satis-test",
+    "description": "A package that is not registered on packagist",
+    "keywords": [
+        "freekmurze",
+        "satis",
+        "test"
+    ],
+    "homepage": "https://github.com/freekmurze/satis-test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Freek Van der Herten",
+            "email": "freek@spatie.be",
+            "homepage": "https://spatie.be",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Spatie\\SatisTest\\": "src"
+        }
+    }
+}
